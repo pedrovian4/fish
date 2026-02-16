@@ -28,3 +28,39 @@ A set of short aliases for common Docker operations. Run `dck` to see all availa
 | `dnl` | List networks |
 | `dip <container>` | Get container IP address |
 | `dst` | Container stats (snapshot) |
+
+## Git Helpers
+
+A set of short aliases for common Git operations. Run `gth` to see all available commands.
+
+| Command | Description |
+|---------|-------------|
+| `gth` | Show all Git aliases |
+| `gpo [flags]` | Push current branch to origin |
+| `gs` | Status (short format) |
+| `ga <files...>` | Add files to staging |
+| `gaa` | Add all changes |
+| `gc <message>` | Commit with message |
+| `gca <message>` | Commit all tracked changes with message |
+| `gcm` | Amend last commit (no edit) |
+| `gpl` | Pull with rebase |
+| `gf` | Fetch all remotes |
+| `gb` | List branches |
+| `gbd <branch>` | Delete branch |
+| `gsw <branch>` | Switch branch |
+| `gsc <branch>` | Switch and create new branch |
+| `gm <branch>` | Merge branch into current |
+| `grb <branch>` | Rebase onto branch |
+| `gl` | Log (oneline, graph, last 20) |
+| `gla` | Log all branches (oneline, graph) |
+| `gd` | Diff unstaged changes |
+| `gds` | Diff staged changes |
+| `gst` | Stash changes |
+| `gstp` | Stash pop |
+| `gstl` | Stash list |
+| `gcp <hash>` | Cherry-pick a commit |
+| `grh` | Reset HEAD (soft) |
+| `grhh` | Reset HEAD (hard) |
+| `gcl <url>` | Clone a repository |
+| `gt <tag>` | Create a tag |
+| `gbl <file>` | Blame a file |
