@@ -64,3 +64,17 @@ A set of short aliases for common Git operations. Run `gth` to see all available
 | `gcl <url>` | Clone a repository |
 | `gt <tag>` | Create a tag |
 | `gbl <file>` | Blame a file |
+
+## Laravel Helpers
+
+| Command | Description |
+|---------|-------------|
+| `sail [args...]` | Alias for `./vendor/bin/sail` |
+| `s [args...]` | Short alias for `./vendor/bin/sail` |
+| `composer-docker [args...]` | Run Composer via Docker (laravelsail/php84-composer) |
+
+## Misc
+
+| Command | Description |
+|---------|-------------|
+| `lz` | Launch lazygit |
